@@ -8,3 +8,5 @@ npm run dev
 2. useState 리액트훅 구현
 
 앞으로 더 개선 해 나갈 계획입니다~
+useState구현기록 ..
+https://donghyk2.tistory.com/144
