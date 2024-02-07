@@ -10,5 +10,5 @@ export const navigate = (to, isReplace = false) => {
     },
   });
 
-  dispatchEvent(historyChangeEvent);
+  dispatchEvent(historyChangeEvent); // historychange 이벤트를 발생시킵니다.
 };
