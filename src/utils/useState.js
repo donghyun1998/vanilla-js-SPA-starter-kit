@@ -1,11 +1,3 @@
-/**
- * @description useState 훅 구현
- * @param {array | number | string | boolean | Object}stateInput 상태
- * @param {object}component 전달된 컴포넌트
- * @param {string}render 렌더링 함수 명
- * @returns [getState, setState] 반환
- * @description 배열이 인자로 올 때 동작이 다르니 유의해서 사용하세요
- */
 
 function deepEqual(a, b) {
   // 두 인자의 타입이 다르면 바로 false 반환
@@ -40,6 +32,14 @@ function isObject(obj) {
   return obj !== null && typeof obj === "object";
 }
 
+/**
+ * @description useState 훅 구현
+ * @param {array | number | string | boolean | Object}stateInput 상태
+ * @param {object}component 전달된 컴포넌트
+ * @param {string}render 렌더링 함수 명
+ * @returns [getState, setState] 반환
+ * @description 배열이 인자로 올 때 동작이 다르니 유의해서 사용하세요
+ */
 export default function useState(stateInput, component, render) {
   if (Array.isArray(stateInput)) {
     // 배열일 경우

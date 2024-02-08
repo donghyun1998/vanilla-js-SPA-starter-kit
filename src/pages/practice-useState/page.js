@@ -2,7 +2,7 @@ import useState from "../../utils/useState.js";
 import {importCss} from "../../utils/importCss.js";
 import {navigate} from "../../utils/navigate.js";
 
-export default function card($container) {
+export default function Card($container) {
   let inputData = {name: '김동현', age: 25}
   let [getData, setData] = useState(inputData, this, 'renderCard');
 
@@ -16,7 +16,7 @@ export default function card($container) {
       setData(state);
     });
     $container.querySelector('.navigate-to-root').addEventListener('click', () => {
-      navigate('/');
+      navigate('/useEffect');
     });
   }
   this.renderCard = () => {
@@ -33,7 +33,7 @@ export default function card($container) {
         <div class="card"></div>
         <button class="increase-age">한 살 먹기</button>
       </div>
-      <button class="navigate-to-root">Go to Root</button>
+      <button class="navigate-to-root">Go to useEffectPrac</button>
     `;
   }
 
