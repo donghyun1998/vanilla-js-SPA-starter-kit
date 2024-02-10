@@ -22,7 +22,7 @@ export default function RootPage($container) {
         ${component(4)}
         ${component(5)}
       </div>
-      <button class="navigate-to-card">Go to Card</button>
+      <button type="button" class="btn btn-secondary navigate-to-card">Go to Card</button>
     `;
   }
 

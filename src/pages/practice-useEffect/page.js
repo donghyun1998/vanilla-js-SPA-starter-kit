@@ -28,14 +28,16 @@ export default function useEffectPrac($container) {
       <div>
         <div class="title">useEffect를 사용해 봅시다</div>
           <div class="card"></div>        
-        <button class="increase-age">한 살 먹기</button>
+        <button type="button" class="btn btn-secondary increase-age">한 살 먹기</button>
       </div>
-      <button class="navigate-to-root">Go to Root</button>
+      <button type="button" class="btn btn-secondary navigate-to-root">Go to Root</button>
     `;
   }
   this.renderCard = () => {
     $container.querySelector('.card').innerHTML = `
-      <div class="name">제 이름은 ${getData().name} ${getData().age}살 이죠 </div>
+      <div class="alert alert-primary name" role="alert">
+        제 이름은 ${getData().name} ${getData().age}살 이죠 
+      </div>
     `;
   }
 
