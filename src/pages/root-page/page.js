@@ -1,15 +1,16 @@
 import component from "./component.js";
-import {importCss} from "../../utils/importCss.js";
-import {navigate} from "../../utils/navigate.js";
+import { importCss } from "../../utils/importCss.js";
+import { navigate } from "../../utils/navigate.js";
 
 export default function RootPage($container) {
-
   this.init = () => {
     this.render();
-    $container.querySelector('.navigate-to-card').addEventListener('click', () => {
-      navigate('/card');
-    });
-  }
+    $container
+      .querySelector(".navigate-to-card")
+      .addEventListener("click", () => {
+        navigate("/useState");
+      });
+  };
 
   this.render = () => {
     importCss("../style/root-page.css");
@@ -22,9 +23,9 @@ export default function RootPage($container) {
         ${component(4)}
         ${component(5)}
       </div>
-      <button type="button" class="btn btn-secondary navigate-to-card">Go to Card</button>
+      <button type="button" class="btn btn-secondary navigate-to-card">Go to useStatePrac</button>
     `;
-  }
+  };
 
   this.init();
 }

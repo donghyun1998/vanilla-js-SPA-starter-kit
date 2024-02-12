@@ -2,7 +2,7 @@ import useState from "../../utils/useState.js";
 import {importCss} from "../../utils/importCss.js";
 import {navigate} from "../../utils/navigate.js";
 
-export default function Card($container) {
+export default function useStatePrac($container) {
   let inputData = {name: '김동현', age: 25}
   let [getData, setData] = useState(inputData, this, 'renderCard');
 
@@ -22,7 +22,7 @@ export default function Card($container) {
   this.renderCard = () => {
     $container.querySelector('.card').innerHTML = `
       <div class="alert alert-primary name" role="alert">
-        제 이름은 ${getData().name} ${getData().age}살 이죠 
+        제 이름은 ${getData().name} ${getData().age}살 이죠
       </div>
     `;
   }
