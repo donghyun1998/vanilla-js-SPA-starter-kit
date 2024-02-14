@@ -72,7 +72,6 @@ export default function useState(stateInput, component, render) {
       return state;
     };
     const setState = (newState) => {
-      console.log(state, newState);
       if (deepEqual(state, newState)) return; // 이전 상태와 새로운 상태가 같으면 렌더링 하지 않음
       state = newState;
       component[render](); // render 메서드 호출

@@ -1,5 +1,5 @@
-import App from "./src/app.js";
+import Router from "./src/router.js";
 
-window.addEventListener("DOMContentLoaded", (e) => {
-  new App(document.querySelector("#app"));
+window.addEventListener("DOMContentLoaded", () => {
+  new Router(document.querySelector("#app"));
 });
