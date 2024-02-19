@@ -11,4 +11,7 @@ https://donghyk2.tistory.com/144
 useEffect구현기록 ..
 https://donghyk2.tistory.com/146
 
+useReducer구현기록 ..
+https://donghyk2.tistory.com/148
+
 해당 스타터킷으로 개발 할 경우 webstorm ide 추천합니다. (백틱 안의 html코드 문법 강조 가능)
