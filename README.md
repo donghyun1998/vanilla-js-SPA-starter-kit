@@ -36,9 +36,28 @@ npm run dev
 ## 프로젝트 구조
 
 - `/src`: 소스 코드 디렉토리. 여기에는 SPA 구현을 위한 JavaScript 파일들이 포함됩니다.
-- `/constants/routeInfo.js`: router에서 참조할 컴포넌트 배열.
-- `/constants/routeInfo.js`: router에서 참조할 컴포넌트 배열.
-  
+
+```
+├── constants
+│   └── routeInfo.js // router에서 참조할 컴포넌트 배열
+├── pages // 페이지들이 저장될 디렉토리
+│   ├── practice-useEffect
+│   │   └── page.js // 각 페이지들의 메인 컴포넌트
+│   ├── practice-useReducer
+│   │   └── page.js
+│   ├── practice-useState
+│   │   └── page.js
+│   └── root-page
+│       ├── component.js
+│       └── page.js
+├── router.js
+└── utils
+    ├── importCss.js
+    ├── navigate.js
+    ├── useEffect.js
+    ├── useReducer.js
+    └── useState.js
+ ``` 
 
 ### 주요 파일
 
