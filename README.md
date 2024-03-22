@@ -17,7 +17,7 @@ next.js의 app router, 함수형 컴포넌트와 비슷하게 작성했습니다
 
 1. 레포지토리를 클론합니다.
     ```bash
-    git clone [레포지토리 URL]
+    git clone git@github.com:donghyun1998/vanilla-js-SPA-starter-kit.git
     ```
 
 2. 의존성을 설치합니다.
