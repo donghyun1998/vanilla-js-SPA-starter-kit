@@ -2,7 +2,7 @@
 
 # VanillaJS SPA Starter Kit
 
-본 Starter Kit은 순수 VanillaJS를 사용하여 Single Page Application(SPA)을 구축하기 위한 기본 템플릿입니다. 이 프로젝트는 라우팅, 상태 관리 그리고 `MutationObserver` API를 이용한 `useEffect` 구현 등을 포함하고 있습니다.
+본 Starter Kit은 순수 VanillaJS를 사용하여 Single Page Application(SPA)을 구축하기 위한 기본 템플릿입니다. 이 프로젝트는 라우팅, 상태 관리 등을 포함하고 있습니다.
 next.js의 app router, 함수형 컴포넌트와 비슷하게 작성했습니다.
 
 ## 기능
