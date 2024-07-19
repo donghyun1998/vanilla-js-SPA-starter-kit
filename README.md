@@ -3,7 +3,8 @@
 # VanillaJS SPA Starter Kit
 
 본 Starter Kit은 순수 VanillaJS를 사용하여 Single Page Application(SPA)을 구축하기 위한 기본 템플릿입니다. 이 프로젝트는 라우팅, 상태 관리 등을 포함하고 있습니다.
-next.js의 app router, 함수형 컴포넌트와 비슷하게 작성했습니다.
+클래스형 컴포넌트에 react hook 패턴을 추가한 형태입니다.
+파일 트리는 next.js의 app router와 유사하게 구성했습니다.
 
 ## 기능
 
